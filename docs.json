@@ -19,6 +19,12 @@
         ]
       },
       {
+        "tab": "Guides",
+        "pages": [
+          "privacy-policy"
+        ]
+      },
+      {
         "tab": "API reference",
         "groups": [
           {
