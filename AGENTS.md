@@ -26,6 +26,14 @@
 - Use sentence case for headings
 - Bold for UI elements: Click **Settings**
 - Code formatting for file names, commands, paths, and code references
+## Rich content conventions
+
+- Prefer a varied but purposeful mix of cards, tabs, accordions, steps, callouts, badges, panels, frames, and Mermaid diagrams.
+- Use cards for summaries and choices, steps for sequential procedures, tabs for alternate audiences or cases, and accordions for optional detail or FAQs.
+- Do not repeat the same component pattern in every section. Let the information structure determine the component.
+- Reuse the project snippets in `/snippets/ui/` before writing a repeated layout from scratch.
+- Keep critical legal obligations visible in the page body. Do not hide material exclusions or refund conditions only inside collapsed accordions.
+- All components must remain useful on mobile and understandable as plain text to search engines and AI crawlers.
 
 ## Content boundaries
 

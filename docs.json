@@ -3,7 +3,7 @@
     "theme":  "mint",
     "name":  "CrizonShop Legal Center",
     "colors":  {
-                   "primary":  "#16A34A",
+                   "primary":  "#15803D",
                    "light":  "#07C983",
                    "dark":  "#15803D"
                },
@@ -25,10 +25,10 @@
                                                    ]
                                     },
                                     {
-                                        "tab":  "Tiáº¿ng Viá»‡t",
+                                        "tab":  "Tiếng Việt",
                                         "groups":  [
                                                        {
-                                                           "group":  "ChÃ­nh sÃ¡ch phÃ¡p lÃ½",
+                                                           "group":  "Chính sách pháp lý",
                                                            "pages":  [
                                                                          "legal/vi/chinh-sach-bao-mat",
                                                                          "legal/vi/dieu-khoan-dich-vu",
@@ -40,10 +40,10 @@
                                                    ]
                                     },
                                     {
-                                        "tab":  "í•œêµ­ì–´",
+                                        "tab":  "한국어",
                                         "groups":  [
                                                        {
-                                                           "group":  "ë²•ë¥  ì •ì±…",
+                                                           "group":  "서비스 정책",
                                                            "pages":  [
                                                                          "legal/ko/privacy-policy",
                                                                          "legal/ko/terms-of-service",
@@ -60,7 +60,7 @@
                    "links":  [
                                  {
                                      "label":  "Support",
-                                     "href":  "mailto:support@crizonshop.com"
+                                     "href":  "mailto:contact@crizonshop.com"
                                  }
                              ],
                    "primary":  {
