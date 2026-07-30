@@ -1,86 +1,92 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "pages": [
-          "terms-of-service-tos",
-          "file",
-          "dieu-khoan-dich-vu"
-        ]
-      },
-      {
-        "tab": "Guides",
-        "pages": [
-          "privacy-policy",
-          "user-data-deletion-instructions"
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+    "$schema":  "https://mintlify.com/docs.json",
+    "theme":  "mint",
+    "name":  "CrizonShop Legal Center",
+    "colors":  {
+                   "primary":  "#16A34A",
+                   "light":  "#07C983",
+                   "dark":  "#15803D"
+               },
+    "navigation":  {
+                       "tabs":  [
+                                    {
+                                        "tab":  "English",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "Legal policies",
+                                                           "pages":  [
+                                                                         "legal/en/privacy-policy",
+                                                                         "legal/en/terms-of-service",
+                                                                         "legal/en/refund-warranty-policy",
+                                                                         "legal/en/digital-delivery-policy",
+                                                                         "legal/en/payment-policy"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "tab":  "Tiáº¿ng Viá»‡t",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "ChÃ­nh sÃ¡ch phÃ¡p lÃ½",
+                                                           "pages":  [
+                                                                         "legal/vi/chinh-sach-bao-mat",
+                                                                         "legal/vi/dieu-khoan-dich-vu",
+                                                                         "legal/vi/chinh-sach-bao-hanh-hoan-tien",
+                                                                         "legal/vi/chinh-sach-giao-san-pham-so",
+                                                                         "legal/vi/chinh-sach-thanh-toan"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "tab":  "í•œêµ­ì–´",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "ë²•ë¥  ì •ì±…",
+                                                           "pages":  [
+                                                                         "legal/ko/privacy-policy",
+                                                                         "legal/ko/terms-of-service",
+                                                                         "legal/ko/refund-warranty-policy",
+                                                                         "legal/ko/digital-delivery-policy",
+                                                                         "legal/ko/payment-policy"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    }
+                                ]
+                   },
+    "navbar":  {
+                   "links":  [
+                                 {
+                                     "label":  "Support",
+                                     "href":  "mailto:support@crizonshop.com"
+                                 }
+                             ],
+                   "primary":  {
+                                   "type":  "button",
+                                   "label":  "CrizonShop",
+                                   "href":  "https://crizonshop.com"
+                               }
+               },
+    "contextual":  {
+                       "options":  [
+                                       "copy",
+                                       "view",
+                                       "chatgpt",
+                                       "claude",
+                                       "perplexity",
+                                       "mcp",
+                                       "cursor",
+                                       "vscode"
+                                   ]
+                   },
+    "footer":  {
+                   "socials":  {
+                                   "github":  "https://github.com/Catdzx13"
+                               }
+               },
+    "icons":  {
+                  "library":  "lucide"
+              }
 }
