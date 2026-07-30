@@ -1,92 +1,161 @@
 {
-    "$schema":  "https://mintlify.com/docs.json",
-    "theme":  "mint",
-    "name":  "CrizonShop Legal Center",
-    "colors":  {
-                   "primary":  "#15803D",
-                   "light":  "#07C983",
-                   "dark":  "#15803D"
-               },
-    "navigation":  {
-                       "tabs":  [
-                                    {
-                                        "tab":  "English",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "Legal policies",
-                                                           "pages":  [
-                                                                         "legal/en/privacy-policy",
-                                                                         "legal/en/terms-of-service",
-                                                                         "legal/en/refund-warranty-policy",
-                                                                         "legal/en/digital-delivery-policy",
-                                                                         "legal/en/payment-policy"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    },
-                                    {
-                                        "tab":  "Tiếng Việt",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "Chính sách pháp lý",
-                                                           "pages":  [
-                                                                         "legal/vi/chinh-sach-bao-mat",
-                                                                         "legal/vi/dieu-khoan-dich-vu",
-                                                                         "legal/vi/chinh-sach-bao-hanh-hoan-tien",
-                                                                         "legal/vi/chinh-sach-giao-san-pham-so",
-                                                                         "legal/vi/chinh-sach-thanh-toan"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    },
-                                    {
-                                        "tab":  "한국어",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "서비스 정책",
-                                                           "pages":  [
-                                                                         "legal/ko/privacy-policy",
-                                                                         "legal/ko/terms-of-service",
-                                                                         "legal/ko/refund-warranty-policy",
-                                                                         "legal/ko/digital-delivery-policy",
-                                                                         "legal/ko/payment-policy"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    }
-                                ]
-                   },
-    "navbar":  {
-                   "links":  [
-                                 {
-                                     "label":  "Support",
-                                     "href":  "mailto:contact@crizonshop.com"
-                                 }
-                             ],
-                   "primary":  {
-                                   "type":  "button",
-                                   "label":  "CrizonShop",
-                                   "href":  "https://crizonshop.com"
-                               }
-               },
-    "contextual":  {
-                       "options":  [
-                                       "copy",
-                                       "view",
-                                       "chatgpt",
-                                       "claude",
-                                       "perplexity",
-                                       "mcp",
-                                       "cursor",
-                                       "vscode"
-                                   ]
-                   },
-    "footer":  {
-                   "socials":  {
-                                   "github":  "https://github.com/Catdzx13"
-                               }
-               },
-    "icons":  {
-                  "library":  "lucide"
-              }
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "CrizonShop Knowledge Base",
+  "colors": {
+    "primary": "#15803D",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "navigation": {
+    "interaction": {
+      "drilldown": false
+    },
+    "groups": [
+      {
+        "group": "Trang chủ",
+        "icon": "house",
+        "pages": [
+          "knowledge/vi/index"
+        ]
+      },
+      {
+        "group": "Bắt đầu & Mua hàng",
+        "icon": "shopping-bag",
+        "pages": [
+          "knowledge/vi/bat-dau/index"
+        ]
+      },
+      {
+        "group": "Điều khoản & Chính sách",
+        "icon": "scroll-text",
+        "pages": [
+          {
+            "group": "Chính sách bảo mật",
+            "icon": "shield-check",
+            "expanded": false,
+            "pages": [
+              "legal/vi/chinh-sach-bao-mat",
+              "legal/en/privacy-policy",
+              "legal/ko/privacy-policy"
+            ]
+          },
+          {
+            "group": "Điều khoản dịch vụ",
+            "icon": "file-signature",
+            "expanded": false,
+            "pages": [
+              "legal/vi/dieu-khoan-dich-vu",
+              "legal/en/terms-of-service",
+              "legal/ko/terms-of-service"
+            ]
+          },
+          {
+            "group": "Bảo hành & Hoàn tiền",
+            "icon": "badge-check",
+            "expanded": false,
+            "pages": [
+              "legal/vi/chinh-sach-bao-hanh-hoan-tien",
+              "legal/en/refund-warranty-policy",
+              "legal/ko/refund-warranty-policy"
+            ]
+          },
+          {
+            "group": "Giao sản phẩm số",
+            "icon": "send",
+            "expanded": false,
+            "pages": [
+              "legal/vi/chinh-sach-giao-san-pham-so",
+              "legal/en/digital-delivery-policy",
+              "legal/ko/digital-delivery-policy"
+            ]
+          },
+          {
+            "group": "Chính sách thanh toán",
+            "icon": "credit-card",
+            "expanded": false,
+            "pages": [
+              "legal/vi/chinh-sach-thanh-toan",
+              "legal/en/payment-policy",
+              "legal/ko/payment-policy"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Hướng dẫn sử dụng",
+        "icon": "graduation-cap",
+        "pages": [
+          "knowledge/vi/huong-dan/index",
+          {
+            "group": "Danh mục hướng dẫn",
+            "icon": "folders",
+            "expanded": false,
+            "pages": [
+              "knowledge/vi/huong-dan/ai/index",
+              "knowledge/vi/huong-dan/streaming/index",
+              "knowledge/vi/huong-dan/do-hoa/index",
+              "knowledge/vi/huong-dan/vpn/index"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Xử lý lỗi & Sự cố",
+        "icon": "wrench",
+        "pages": [
+          "knowledge/vi/khac-phuc-loi/index"
+        ]
+      },
+      {
+        "group": "Đánh giá & So sánh",
+        "icon": "scale",
+        "pages": [
+          "knowledge/vi/blog/so-sanh/index",
+          "knowledge/vi/blog/review/index"
+        ]
+      },
+      {
+        "group": "Tin tức & Khuyến mãi",
+        "icon": "newspaper",
+        "pages": [
+          "knowledge/vi/tin-tuc/index"
+        ]
+      },
+      {
+        "group": "Hỗ trợ & Liên hệ",
+        "icon": "headphones",
+        "pages": [
+          "knowledge/vi/lien-he"
+        ]
+      }
+    ]
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:contact@crizonshop.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "CrizonShop",
+      "href": "https://crizonshop.com"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Catdzx13"
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  }
 }

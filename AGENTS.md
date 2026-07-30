@@ -39,3 +39,14 @@
 
 {/* Define what should and shouldn't be documented */}
 {/* Example: Don't document internal admin features */}
+## Knowledge Base information architecture
+
+- Keep knowledge/vi/index.mdx as the main Knowledge Base landing page.
+- Organize product tutorials under knowledge/vi/huong-dan/category-name/.
+- Organize troubleshooting under knowledge/vi/khac-phuc-loi/.
+- Organize comparison and review content under knowledge/vi/blog/so-sanh/ and knowledge/vi/blog/review/.
+- Organize announcements and promotions under knowledge/vi/tin-tuc/.
+- Create category hub pages first. Add individual articles to navigation only after their instructions, screenshots, links, and product facts are verified.
+- Troubleshooting articles must link to warranty and support. Comparison/review articles may include a relevant storefront CTA after the analysis.
+- Do not publish placeholder articles or demo product claims.
+- Organize legal navigation by policy topic first, then list Tiếng Việt, English, and 한국어 as leaf pages.
